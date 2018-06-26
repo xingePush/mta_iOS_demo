@@ -1,0 +1,24 @@
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<body>
+测试上报
+<script src="app_link_h5_stats.js" name="MtaLinkH5"></script>
+
+<script>
+    MtaLinkH5.pageBasicStats({
+        'title': '测试页面1',
+    });
+
+    //测试上报uin
+    MtaLinkH5.setLoginUin('QQ号');
+</script>
+
+<button onclick="MtaLinkH5.eventStats('test')">测试事件-单值</button>
+<button onclick="MtaLinkH5.eventStats('test', {'key1':'value1'})">测试事件-单kv</button>
+<button onclick="MtaLinkH5.eventStats('test', {'key1':'value1','key2':'value2'})">测试事件-多kv</button>
+<p/>
+<a href="app_link_h5_page1.html">page1</a>
+
+</body>
+
+</html>

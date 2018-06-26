@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2ip-gM-w22">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="1aX-I5-0u8">
+            <objects>
+                <viewController id="2ip-gM-w22" customClass="ViewController" customModule="MTA_Swift_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fvT-Zb-tH2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYb-eb-4nG">
+                                <rect key="frame" x="156" y="40" width="62" height="30"/>
+                                <state key="normal" title="普通事件"/>
+                                <connections>
+                                    <action selector="normalEvent:" destination="2ip-gM-w22" eventType="touchUpInside" id="KhO-sd-YXN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CfT-TX-SgT">
+                                <rect key="frame" x="156" y="90" width="62" height="30"/>
+                                <state key="normal" title="时长事件"/>
+                                <connections>
+                                    <action selector="durationEvent:" destination="2ip-gM-w22" eventType="touchUpInside" id="UeY-Ke-1gl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CfT-TX-SgT" firstAttribute="centerX" secondItem="gBN-jl-Ci4" secondAttribute="centerX" id="10k-HY-P78"/>
+                            <constraint firstItem="YYb-eb-4nG" firstAttribute="centerX" secondItem="gBN-jl-Ci4" secondAttribute="centerX" id="Tg2-pe-TO9"/>
+                            <constraint firstItem="CfT-TX-SgT" firstAttribute="top" secondItem="YYb-eb-4nG" secondAttribute="bottom" constant="20" id="YZy-3N-NjD"/>
+                            <constraint firstItem="YYb-eb-4nG" firstAttribute="top" secondItem="gBN-jl-Ci4" secondAttribute="top" constant="20" id="Yxr-R3-2IA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gBN-jl-Ci4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5eC-4o-7xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="-171"/>
+        </scene>
+    </scenes>
+</document>

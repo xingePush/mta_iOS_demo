@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fbi_demo</title>
+    <script type="text/javascript" src="zepto.min.js"></script>
+    <script type="text/javascript" src="fbi.js"></script>
+
+</head>
+<body>
+
+<form action="fbi_demo.html" method="post" >
+    <div class="loginBox">
+        <div class="loginBoxCenter">
+            <p><label>用户名：</label></p>
+            <p><input type="text" id="userName" name="userName" class="loginInput" required="required" autocomplete="off" placeholder="请输入用户名" value="" /></p>
+            <p><label>密码：</label><a class="forgetLink" href="#">忘记密码?</a></p>
+            <p><input type="password" id="password" name="password" class="loginInput" required="required" placeholder="请输入密码" value="" /></p>
+        </div>
+        <div class="loginBoxButtons">
+            <input id="remember" type="checkbox" name="remember" />
+            <label for="remember">记住登录状态</label>
+            <button class="loginBtn">登录</button>
+        </div>
+    </div>
+</form>
+
+<script type="text/javascript">
+
+    var dict = {};
+    dict.key1 = "value1";
+    dict.key2 = 10;
+
+    var userName = $("#userName");
+    userName.on('focus',function(e){
+        FBI.onInputFocusChange("INPUT_LOGIN_USER_ID", true , dict);
+    });
+    
+</script>
+
+</body>
+</html>
