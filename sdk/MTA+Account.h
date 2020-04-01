@@ -22,7 +22,7 @@ typedef NS_ENUM(NSUInteger, MTAAccountTypeExt) {
 
 	MTAAccountWeixin = 1000,	// 微信
 	MTAAccountQQOpenid = 1001,  // QQ开放平台Openid
-	MTAAccountWeibo = 1003,		// 新浪微博
+	MTAAccountWeibo = 1002,		// 新浪微博
 	MTAAccountAlipay = 1003,	// 支付宝
 	MTAAccountTaobao = 1004,	// 淘宝
 	MTAAccountDouban = 1005,	// 豆瓣

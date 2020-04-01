@@ -33,8 +33,6 @@
 		68B718AE20D9F71D00B5DF88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B718AD20D9F71D00B5DF88 /* AppDelegate.swift */; };
 		68B718B320D9F71D00B5DF88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68B718B120D9F71D00B5DF88 /* Main.storyboard */; };
 		68B718B520D9F71E00B5DF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68B718B420D9F71E00B5DF88 /* Assets.xcassets */; };
-		68C1A417207F3C0A002595AE /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A416207F3C0A002595AE /* libmtasdk.a */; };
-		68C1A41B207F3C22002595AE /* libautotrack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A41A207F3C22002595AE /* libautotrack.a */; };
 		68C1A422207F3C53002595AE /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A416207F3C0A002595AE /* libmtasdk.a */; };
 		68C1A424207F3C5C002595AE /* libMTAHybrid.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A423207F3C5C002595AE /* libMTAHybrid.a */; };
 		68C1A425207F3C6A002595AE /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A416207F3C0A002595AE /* libmtasdk.a */; };
@@ -78,6 +76,7 @@
 		F06D6AEA1FA9BDB0001DE446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06D6AD71FA9BD73001DE446 /* Assets.xcassets */; };
 		F06D6AEB1FA9BDB0001DE446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D6AD81FA9BD73001DE446 /* LaunchScreen.storyboard */; };
 		F06D6AEC1FA9BDB0001DE446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D6ADA1FA9BD73001DE446 /* Main.storyboard */; };
+		F092B57D2434442A003DCBD0 /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A416207F3C0A002595AE /* libmtasdk.a */; };
 		F0B17D3E1D922B2A00A428E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B17D3D1D922B2A00A428E8 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -193,8 +192,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68C1A41B207F3C22002595AE /* libautotrack.a in Frameworks */,
-				68C1A417207F3C0A002595AE /* libmtasdk.a in Frameworks */,
+				F092B57D2434442A003DCBD0 /* libmtasdk.a in Frameworks */,
 				68D86F3E2060ED9700090E02 /* AdSupport.framework in Frameworks */,
 				68F287151FD4E9FE00A6DBB3 /* libz.tbd in Frameworks */,
 				68613EB11E66BC75006420AF /* libsqlite3.tbd in Frameworks */,

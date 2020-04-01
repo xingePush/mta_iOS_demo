@@ -10,7 +10,6 @@
 
 #import "MTA.h"
 #import "MTAConfig.h"
-#import "MTAAutoTrack.h"
 
 #import "FirstViewController.h"
 #import "SecondViewController.h"
@@ -57,12 +56,6 @@
 }
 
 - (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<UIApplicationOpenURLOptionsKey,id> *)options {
-	// 可视化埋点代码
-	// 若不使用可视化埋点功能
-	// 可不添加这行代码
-    if ([MTAAutoTrack handleAutoTrackURL:url])
-        return YES;
-
 
 
 	// 原有代码
