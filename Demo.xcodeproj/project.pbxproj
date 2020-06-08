@@ -78,6 +78,8 @@
 		F06D6AEC1FA9BDB0001DE446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D6ADA1FA9BD73001DE446 /* Main.storyboard */; };
 		F092B57D2434442A003DCBD0 /* libmtasdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68C1A416207F3C0A002595AE /* libmtasdk.a */; };
 		F0B17D3E1D922B2A00A428E8 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B17D3D1D922B2A00A428E8 /* CFNetwork.framework */; };
+		F0FBCA9D248E6145004B2EDE /* app_link_h5_stats_xiaoma.js in Resources */ = {isa = PBXBuildFile; fileRef = F0FBCA9B248E6145004B2EDE /* app_link_h5_stats_xiaoma.js */; };
+		F0FBCA9E248E6145004B2EDE /* app_link_h5_stats_mta.js in Resources */ = {isa = PBXBuildFile; fileRef = F0FBCA9C248E6145004B2EDE /* app_link_h5_stats_mta.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -159,6 +161,8 @@
 		F06D6ADE1FA9BD73001DE446 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F06D6ADF1FA9BD73001DE446 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F0B17D3D1D922B2A00A428E8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F0FBCA9B248E6145004B2EDE /* app_link_h5_stats_xiaoma.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app_link_h5_stats_xiaoma.js; sourceTree = "<group>"; };
+		F0FBCA9C248E6145004B2EDE /* app_link_h5_stats_mta.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app_link_h5_stats_mta.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +320,8 @@
 		68DC8A831F9449DA00207CCE /* html */ = {
 			isa = PBXGroup;
 			children = (
+				F0FBCA9C248E6145004B2EDE /* app_link_h5_stats_mta.js */,
+				F0FBCA9B248E6145004B2EDE /* app_link_h5_stats_xiaoma.js */,
 				68DC8A841F9449DA00207CCE /* app_link_h5.html */,
 				68DC8A851F9449DA00207CCE /* app_link_h5_page1.html */,
 				68DC8A861F9449DA00207CCE /* app_link_h5_stats.js */,
@@ -556,12 +562,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				689985891F78B17700C1FAD0 /* Default-568h@2x.png in Resources */,
+				F0FBCA9D248E6145004B2EDE /* app_link_h5_stats_xiaoma.js in Resources */,
 				6899858A1F78B17700C1FAD0 /* Default.png in Resources */,
 				6899858B1F78B17700C1FAD0 /* Default@2x.png in Resources */,
 				6899858C1F78B17700C1FAD0 /* first.png in Resources */,
 				6899858D1F78B17700C1FAD0 /* first@2x.png in Resources */,
 				6899858E1F78B17700C1FAD0 /* second.png in Resources */,
 				6899858F1F78B17700C1FAD0 /* second@2x.png in Resources */,
+				F0FBCA9E248E6145004B2EDE /* app_link_h5_stats_mta.js in Resources */,
 				689985881F78B12600C1FAD0 /* FirstViewController.xib in Resources */,
 				6844A2731F78AD9F0022276E /* Images.xcassets in Resources */,
 				6844A26E1F78AD9F0022276E /* SecondViewController.xib in Resources */,
